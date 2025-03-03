@@ -1,0 +1,15 @@
+﻿<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon>
+    <tabs>
+      <tab id="CustomTab" label="TopBoth">
+        <group id="SettingsGroup" label="AI参数设置">
+          <button id="btnConfig" 
+                   label="配置参数" 
+                   size="large" 
+                   onAction="ShowConfigDialog"
+                   imageMso="Paste"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
